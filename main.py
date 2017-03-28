@@ -88,11 +88,10 @@ pivot = 0
 avgList = []
 indexList = []
 
-# loop to be able to partite same data set
-
 # get part size from user
 pivot = int(input("\nEnter partition size: "))
 
+# loop to be able to partite same data set
 while pivot != -1:
     # divide steps into parts that have pivot number of elements each
     new_size = size - (size % pivot)
